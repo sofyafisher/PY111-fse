@@ -1,5 +1,8 @@
 import unittest
-import Tasks.f0_binary_search_tree as bst
+from Tasks.f0_binary_search_tree import BinarySearchTree
+
+
+bst = BinarySearchTree()
 
 
 class MyTestCase(unittest.TestCase):

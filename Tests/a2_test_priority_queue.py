@@ -1,5 +1,7 @@
 import unittest
-import Tasks.a2_priority_queue as priority_queue
+from Tasks.a2_priority_queue import PriorityQueue
+
+priority_queue = PriorityQueue()
 
 
 class MyTestCase(unittest.TestCase):

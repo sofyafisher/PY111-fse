@@ -1,7 +1,7 @@
 import random
 import time
 
-array = [random.randint(13, 25) for _ in range(10**2)]
+array = [random.randint(13, 25) for _ in range(10**6)]
 
 def get_key(d, value):
 
